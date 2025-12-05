@@ -1,9 +1,25 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <style>
+            body {
+                
+                background-color: #f7e6a590;
+                margin: 0;
+                padding: 5%;
+            }
+            fieldset {
+                border: 2px solid #000;
+                padding: 20px;
+                margin-bottom: 20px;
+                background-color: #fff;
+            }
+        </style>
+    </head>
 <body>
 <form action="" 
 method="post">
-<fieldset>  
+<fieldset style="width:75%; margin:auto;">  
     <h1 align="center">Appointment For Medical Appointment</h1>
     <p><strong>NOTE:</strong>The form is to be completed and send prior to five days before the appointment date.</p>
     <fieldset>
@@ -63,7 +79,7 @@ method="post">
         <label for="medical-files">Upload Medical certificates here:Select files</label>
         <input type="file" id="medical-files" name="medical_files">
     </fieldset><br>
-    <input type="submit" value="Send your Application">  
+    <center><input type="submit" value="Send your Application" style="width:auto; background-color:#f1b683"></center>
 </fieldset>    
 </form>
 </body>

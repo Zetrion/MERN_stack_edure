@@ -1,22 +1,27 @@
-<html>
+<html style="border-top: 10px solid rgb(0, 178, 178);">
     <head>
-        <h1 img src="">The Code Magazine</h1>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="code.css">
     </head>
-    <body>
-        <ul>
-        <a href="index.html">Blog</a>
-        <a href="index.html">Challenges</a>
-        <a href="index.html">Flexbox</a>
-        <a href="index.html">CSS</a>
+    <body style= "width: 60%; margin:0 auto 0 auto; font-family: calibri;">
+        <div class="header">
+        <h1 style="color: rgb(0, 178, 178); margin-bottom:0px ">📘 The Code Magazine</h1>
+        <ul class="header-link">
+        <li><a href="index.html">Blog</a></li>
+        <li><a href="index.html">Challenges</a></li>
+        <li><a href="index.html">Flexbox</a></li>
+        <li><a href="index.html">CSS</a></li>
         </ul>
-        <h2>The Basic Language of the Web : hTML</h2>
-        <img src="laura-jones.jpg" width="10%">
-        <p>Posted by <b>Laura Jones</b> on Monday, June 21st 2027</p>
-        <img src="post-img.jpg" alt="">
+        </div>        
+        <h2>The Basic Language of the Web : HTML</h2>
+        <img src="laura-jones.jpg" width="10%" style="border-radius: 50%; vertical-align: middle; margin-right: 10px;">
+        <p style="font-style: italic; font-size: 20px;">Posted by <b>Laura Jones</b> on Monday, June 21st 2027</p>
+        <img src="post-img.jpg" alt="" style="width: 75%;">
         <p>All modern websites and web applications are built using three fundamental technologies: HTML, CSS and JavaScript. These are the languages of the web.</p>
         <p>In this post, let's focus on HTML. We will learn what HTML is all about, and why you too should learn it.</p>
         <h4>What is HTML?</h4>
-        <p>HTML stands for HyperText Markup Language. It's a markup language that web developers use to structure and describe the content of a webpage (not a programming language).
+        <div class="para2">
+        <p>HTML stands for <b>H</b>yper<b>T</b>ext <b>M</b>arkup <b>L</b>anguage. It's a markup language that web developers use to structure and describe the content of a webpage (not a programming language).
         <br>HTML consists of elements that describe different types of content: paragraphs, links, headings, images, video, etc. Web browsers understand HTML and render HTML code as websites.
         </p>
         <p>In HTML, each element is made up of 3 parts:
@@ -25,7 +30,10 @@
          <li>The closing tag</li>
          <li>The actual element</li>
         </ol></p>
-        <p>You can learn more at <a href="index.html">MDN Web Docs.</a> </p>
+        <p>You can learn more at <a id="web-docs" href="index.html">MDN Web Docs.</a> </p>
+        </div>
+        
+        <div>
         <h4>Why should you learn HTML?</h4>
         <p>There are countless reasons for learning the fundamental language of the web. Here are 5 of them:</p>
         <ul>
@@ -35,22 +43,27 @@
          <li>To impress friends</li>
          <li>To have fun 😃</li>
         </ul>
-        <p>Related posts</p>
-        <ul>
-        <li><img src="related-1.jpg"
-            width="100"
-        >
+        </div>
+
+        <div class="rel-post">
+        <p id="rp">RELATED POSTS</p>
+        <ul class="rp-link">
+        <li><img src="related-1.jpg"  width="100">
         <a href="index.html">How to Learn Web Development</a> 
         <p>By Jonas Schmedtmann</p></li>
-        <li><img src="related-2.jpg"
-        width="100"
-        ><a href="index.html">The unknown power of css</a> 
+        <li><img src="related-2.jpg"width="100"> 
+        <a href="index.html">The unknown power of css</a> 
         <p>By Matilda</p></li>
         <li><img src="related-3.jpg"
         width="100"
         ><a href="index.html">Why Javascript is awesome</a>
         <p>By Jim Dillon</p> </li>
         </ul>
+        </div>
+        <button class="fixed-like-button">
+            <i class="fas fa-heart"></i>
+            <span>Like</span>
+        </button>
         <p>Copyright © 2027 by The Code Magazine.</p>
     </body>
 </html>

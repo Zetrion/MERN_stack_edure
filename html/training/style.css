@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    background-image: url("altus.png");
+    background-repeat: repeat;
+}
+ul{
+    list-style-type: none;
+    list-style-position: outside;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+#start{
+    background-color:white;
+    padding: 20px;
+    margin: 10px;
+}
+p{
+    color: black;
+}     

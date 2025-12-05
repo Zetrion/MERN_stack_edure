@@ -1,0 +1,80 @@
+div.header {
+  background-color: lightgray;
+  box-shadow: 2px 2px 5px gray;
+  overflow: hidden;
+  padding: 10px 10px 10px 10px;
+  margin-top: 0px;
+}
+.header-link {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  justify-content: left;
+  gap: 40px;
+  font-size: 20px;
+}
+.header-link a {
+  color: rgb(0, 178, 178);
+  text-decoration: none;
+}
+h1 {
+  padding: 0 0 0 0;
+}
+h4 {
+  color: rgb(0, 178, 178);
+}
+h2 {
+  color: rgb(0, 178, 178);
+  font-size: 48px;
+}
+#web-docs {
+  color: rgb(0, 178, 178);
+  text-decoration: none;
+}
+.rel-post {
+  background-color: rgb(243, 243, 243);
+  padding: 10px;
+  border-top: 5px solid rgb(0, 178, 178);
+  border-bottom: 5px solid rgb(0, 178, 178);
+}
+#rp {
+  font-family: Calibri;
+  color: rgb(0, 178, 178);
+  text-align: center;
+  font-size: large;
+}
+.rp-link a {
+  text-decoration: none;
+  color: rgb(0, 178, 178);
+}
+.para2 {
+  font-style: italic;
+}
+.fixed-like-button {
+    position: fixed; 
+    right: 20px; 
+    bottom: 20px;
+    background-color: white;
+    color: #555;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 8px; 
+    font-weight: 700;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); 
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    z-index: 1000;
+    transition: all 0.2s ease;
+}
+.fixed-like-button:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+    transform: translateY(-2px);
+}
+.fixed-like-button i {
+    color: red;
+    font-size: 1.2rem;
+}
