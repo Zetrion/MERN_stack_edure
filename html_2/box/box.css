@@ -1,0 +1,29 @@
+.main-box {
+  border: 10px solid green;
+  margin: 15px;
+  background-color: aqua;
+  position: static;
+  padding-bottom: 4.9%;
+}
+.box {
+  border: 1px solid black;
+  padding: 10px;
+  background-color: aqua;
+}
+.box4 {
+  border: 3px dashed red;
+  padding: 10px;
+  background-color: purple;
+}
+.box5 {
+  border: 2px dotted green;
+  padding: 10px;
+  background-color: blue;
+}
+.box6 {
+  border: 4px double orange;
+  padding: 10px;
+  width: 150px;
+  background-color: yellow;
+  position: absolute;
+}
