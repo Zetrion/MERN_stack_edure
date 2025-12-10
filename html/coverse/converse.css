@@ -1,0 +1,96 @@
+.Box {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 50%;
+  margin: 100px auto;
+}
+
+.box-1 {
+  background-color: lightgrey;
+  flex-wrap: wrap;
+}
+
+.box-2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.box-3 {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.image {
+  flex: 1;
+}
+
+.price {
+  flex: 1;
+  padding: 20px;
+}
+
+.product {
+  flex: 1;
+}
+
+#e {
+  background-color: black;
+  color: white;
+  flex: 1;
+  padding: 10px;
+  border: none;
+}
+
+.color-button {
+  display: flex;
+  height: 25px;
+  width: 25px;
+  gap: 10px;
+ 
+}
+
+.C1 {
+  background-color: black;
+border: none;
+}
+
+.C2 {
+  background-color: blue;
+   border: none;
+}
+
+.C3 {
+  background-color: red;
+}
+
+.C4 {
+  background-color: yellow;
+}
+
+.C5 {
+  background-color: green;
+}
+
+.C6 {
+  background-color: orange;
+}
+
+.prll {
+  display: flex;
+  gap: 150px;
+}
+
+.sale{
+    background-color: red;
+    color:white;
+    width:60px;
+    height: 30;
+    position: fixed;
+    top:90px;
+    text-align: center;
+    left:420px;
+}

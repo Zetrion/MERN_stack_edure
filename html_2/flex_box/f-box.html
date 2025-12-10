@@ -1,20 +1,37 @@
 <html>
-    <head>
-        <title>Box Model Example</title>
-        <style>
-            .box {
-                width: 200px;
-                height: 100px;
-                padding: 20px;
-                border: 5px solid black;
-                margin: 15px;
-                background-color: lightblue;
-            }
-        </style>
-        <body>
-            <div class="box">
-                This is a box with padding, border, and margin.
-            </div>
-        </body>
-    </head>
+  <head>
+    <title>Flex Box Example</title>
+    <link rel="stylesheet" href="f-box.css" />
+  </head>
+  <body>
+    <div class="buket">
+
+      <header class="container1">
+        <div class="item"></div>
+        <div class="item">
+          <div class="sub-item"></div>
+          <div class="sub-item"></div>
+        </div>
+        <div class="item"></div>
+      </header>
+
+      <main class="container2">
+        <div class="item-left"></div>
+        <div class="item-right">
+          <div class="sub-itemR1"></div>
+          <div class="sub-itemR2"></div>
+        </div>
+      </main>
+
+      <footer class="container3">
+        <div class="item-left"></div>
+        <div class="item-center">
+          <div class="sub-itemC1"></div>
+          <div class="sub-itemC2"></div>
+        </div>
+        <div class="item-left"></div>
+      </footer>
+
+    </div>
+  </body>
 </html>

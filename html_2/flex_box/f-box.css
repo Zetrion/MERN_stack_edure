@@ -1,0 +1,104 @@
+.buket {
+  background-color: lightgreen;
+  border: 5px solid green;
+  padding: 10px;
+  margin: 5px;
+  flex: 1;
+}
+.container1 {
+  display: flex;
+  border: 5px solid blue;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: stretch;
+  background-color: lightskyblue;
+}
+.item {
+  background-color: peachpuff;
+  margin: 05px;
+  padding: 10px;
+  flex: 1;
+  display: flex;
+  border: 5px solid lightcoral;
+}
+.item div {
+  background-color: lightcoral;
+  margin: 0px;
+  padding: 20px;
+  flex-wrap: wrap;
+  flex: 1;
+  border: 5px solid red;
+}
+
+.container2 {
+  display: flex;
+  margin: 20px 0px 0px 0px;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.item-left {
+  background-color: lightyellow;
+  padding: 80px;
+  flex: 1;
+  margin-right: 5px;
+  border: 5px solid brown;
+}
+
+.item-right {
+  flex: 1;
+  flex-direction: column;
+  margin-left:5px;
+}
+
+.sub-itemR1{
+    background-color: lightyellow;
+    padding: 40px;
+    flex: 1;
+    border: 5px solid brown;
+    margin-bottom: 2.5px;
+}
+
+.sub-itemR2{
+    background-color: lightyellow;
+    padding: 40px;  
+    flex: 1;
+    border: 5px solid brown;
+    margin-top: 2.5px;
+}
+
+.container3 {
+  display: flex;
+  border: 5px solid blue;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: lightblue;
+  margin: 20px 0px 0px 0px;
+}
+
+.item-left {
+  background-color: lightgray;
+  margin: 5px;
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  border: 5px solid gray;
+}
+
+.item-center {
+  display: flex;
+  flex-grow: 1;
+  margin: 0px;
+}
+
+.item-center div {
+  display: flex;
+  background-color: peachpuff;
+  margin: 0px 2px;
+  padding: 20px;
+  flex-wrap: wrap;
+  flex: 1;
+  flex-grow: 1;
+  border: 5px solid lightcoral;
+}
